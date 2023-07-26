@@ -1,0 +1,14 @@
+
+
+
+#toplevel_page_piotrek-menu-home .wp-menu-image:before {
+    content: ""!important;
+    background: url('../icons/icon-circle-plug.svg') center no-repeat;
+    background-color: transparent;
+    background-size: 100% auto;
+}
+
+
+.error {
+    color: red;
+}

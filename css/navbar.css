@@ -1,0 +1,75 @@
+/* Mobilny menu bar fixed */
+
+
+.December2017_Mobile_Bar * {
+    box-sizing: border-box;
+}
+    
+    
+
+.December2017_Mobile_Bar__item span {
+    color:rgba(25, 32, 43, 1);
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:400;
+}    
+
+
+.December2017_Mobile_Bar__item img {
+    position:relative;
+    display: block;
+    font-size: 20px;
+    color: rgba(25, 32, 43, 1);
+    margin: 0 auto 5px;
+    width: 20px;
+    height: auto;
+}
+
+.December2017_Mobile_Bar {
+
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2000;
+    text-align: center;
+}
+
+.December2017_Mobile_Bar__item {
+
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    background-color: transparent;
+    border-top: 1px solid rgba(0,0,0,.15);
+    height: 100%;
+  float: left;
+  display: block;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    
+    .December2017_Mobile_Bar {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    .December2017_Mobile_Bar {
+        display: block;
+    }
+}
