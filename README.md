@@ -4,7 +4,8 @@ Uwaga:
 
 Aby plugin 'fixed-navbar' zadzialal, do footer.php trzeba dodaæ jeszcze nastepujacy kod :
 
-```php
+```
+
 <?php if (function_exists('mobile_bar_print_slides')) { 
 mobile_bar_print_slides();
 } ?>
