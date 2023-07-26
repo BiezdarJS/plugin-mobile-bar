@@ -2,7 +2,7 @@
 
 Uwaga:
 
-Aby plugin 'fixed-navbar' zadzialal, do footer.php trzeba dodaæ jeszcze nastepujacy kod :
+Aby plugin 'fixed-navbar' zadzialal, do footer.php trzeba dodaæ jeszcze nastepujacy kod (np: w footer.php na końcu pliku) :
 
 ```
 
